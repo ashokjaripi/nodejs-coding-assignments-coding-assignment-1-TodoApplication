@@ -1,0 +1,33 @@
+
+
+
+GET http://localhost:3000/todos/
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/todos/?search_q=Buy
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/todos/?priority=MEDIUM&search_q=Buy
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/todos/?status=TO%20DO
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/todos/?priority=lo
+Content-Type: application/json
+
+###
+GET http://localhost:3000/todos/?priority=HIGH&status=IN%20PROGRESS
+Content-Type: application/json
+
+###
+GET http://localhost:3000/agenda/?date=2021-12-12
+Content-Type: application/json
